@@ -8,4 +8,3 @@ t = np.linspace(0.1, 1.0, num = 10000)
 
 x = (2*np.pi*freq*t)   # start,stop,step
 y = np.sin(x)
-st.line_chart(y)
