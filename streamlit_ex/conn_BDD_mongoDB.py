@@ -2,7 +2,7 @@ import streamlit as st
 from pymongo import MongoClient
 import pandas as pd
 
-#st.title('My first mongoDB')
+st.title('My first mongoDB')
 
 client = MongoClient("localhost", 27017)
 
